@@ -9,6 +9,16 @@ main {
     border-radius: 1.5rem;
 }
 
+.c1 {
+    color: #283334;
+}
+.c2 {
+    color: #6FE35E;
+}
+.c3 {
+    color: #7DBC64;
+}
+
 .transition-fade {
     opacity: 1;
     transition: 500ms;
@@ -42,6 +52,6 @@ header .trc:nth-child(3) {
 }
 .scrollmenu .active {
     font-weight: 600;
-    color: #EE9C53;
-    border-bottom: 2px solid #EE9C53;
+    color: #6FE35E;
+    border-bottom: 2px solid #6FE35E;
 }
