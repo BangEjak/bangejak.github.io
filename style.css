@@ -1,0 +1,47 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+body {
+    background-color: #212529;
+}
+main {
+    border-radius: 1.5rem;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+}
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+header .trc {
+    height: 1rem;
+    width: 1rem;
+}
+header .trc:nth-child(1) {
+    background-color: #283334;
+}
+header .trc:nth-child(2) {
+    background-color: #6FE35E;
+}
+header .trc:nth-child(3) {
+    background-color: #7DBC64;
+}
+
+.scrollmenu::-webkit-scrollbar {
+    display: none;
+}
+.scrollmenu a {
+    margin-right: 1rem;
+    color: #6c757d;
+    font-weight: 400;
+    text-decoration: none;
+}
+.scrollmenu .active {
+    font-weight: 600;
+    color: #EE9C53;
+    border-bottom: 2px solid #EE9C53;
+}
